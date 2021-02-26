@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Test{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+ <nav>
+  <ul>
+   <input type="submit" name="submit_button" value="Random">
+   <input type="submit" name="submit_button" value="AddOne">
+  </ul>
+ </nav>
+{% endblock %}
